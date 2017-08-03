@@ -10,14 +10,18 @@ public class principal {
 		System.out.print("Escriba EXIT para salir");
 		while (ciclo.equals("cont")) {
 
-			System.out.println("\n\nEscriba la operacion que se desea hacer");
+			System.out.print("\n\nEscriba la operacion que se desea hacer");
 			String cadena = teclado.nextLine();
 
 			if (cadena.equals("EXIT") || cadena.equals("exit")) {
 				ciclo = "no";
 				System.out.println("Gracias por usar la calculadora...");
 			} else {
-				logica.separar(cadena);
+				if (cadena.isEmpty()) {
+
+				} else {
+					logica.separar(cadena);
+				}
 			}
 		}
 		teclado.close();

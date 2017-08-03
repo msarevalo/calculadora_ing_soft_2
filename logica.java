@@ -73,8 +73,6 @@ public class logica {
 
 		//}
 
-		// if (respuesta == 's') {
 		System.out.printf("\nEl resultado de " + cadena + " es igual a: %.2f", resultado);
-		// }
 	}
 }

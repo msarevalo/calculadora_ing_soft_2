@@ -19,7 +19,7 @@ public class logica {
 		// contador = numeros[0].length();
 
 		for (int i = 0; i < numeros.length; i++) {
-			numero = Integer.parseInt(numeros[i]);
+			//numero = Integer.parseInt(numeros[i]);
 			numero = Double.parseDouble(numeros[i]);
 			// System.out.println(numero);
 			numerosfin.add(i, numero);
